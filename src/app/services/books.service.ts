@@ -7,7 +7,7 @@ import { Book } from '../models/book.model';
 })
 export class BooksService {
 
-  url = "http://192.168.0.3:8080/api"
+  url = "http://localhost:8080/api"
 
   constructor(
     private http: HttpClient
